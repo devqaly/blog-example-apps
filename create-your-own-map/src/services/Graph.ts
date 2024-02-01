@@ -19,4 +19,8 @@ export class Graph {
       point.draw(ctx)
     }
   }
+
+  public addPoint(point: Point) {
+    this.points.push(point)
+  }
 }
