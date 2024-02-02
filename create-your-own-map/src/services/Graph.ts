@@ -2,8 +2,8 @@ import { Point } from "./Point.ts";
 import { Segment } from "./Segment.ts";
 
 export class Graph {
-  private points: Point[]
-  private segments: Segment[]
+  public points: Point[]
+  public segments: Segment[]
 
   constructor(points: Point[] = [], segments: Segment[] = []) {
     this.points = points
